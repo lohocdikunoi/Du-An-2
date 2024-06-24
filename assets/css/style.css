@@ -1,0 +1,95 @@
+/* ====================================================================BASE */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+/*-======================================================== Thuộc tính chung */
+a {
+  text-decoration: none;
+}
+
+.main_content {
+  width: 1171px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*========================================================================== Phần HEADER */
+
+.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -26px;
+}
+
+.body {
+  display: flex;
+  padding: 50px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body .acctive {
+  display: flex;
+  gap: 39px;
+}
+
+.body .acctive a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.body .acctive a:hover {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.body .logo {
+  display: flex;
+  align-items: center;
+}
+
+.body .logo a:last-child {
+  margin-top: 5px;
+}
+
+.body .logo a:nth-child(2) {
+  margin: 0px 4px 0px 6px;
+}
+
+.body .log a {
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.body .log {
+  display: flex;
+}
+
+.body .btn {
+  padding: 12px 24px;
+}
+
+.body .btn:hover {
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
