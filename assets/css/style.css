@@ -475,7 +475,7 @@ header .body .btn:hover {
   width: 862px;
   height: 131px;
   margin: 0px auto;
-  padding-top: 265px;
+  padding-top: 390px;
 }
 
 .courses .body2 .countdown {
@@ -501,4 +501,123 @@ header .body .btn:hover {
   font-weight: 400;
   margin-top: 30px;
   text-wrap: nowrap;
+}
+
+/*============================================================================= Phần FeedBack */
+.feedback .main_content .body {
+  display: flex;
+  padding-top: 265px;
+}
+
+.feedback .text .icon {
+  width: 36px;
+  height: 29px;
+}
+
+.feedback .body .text {
+  width: 36%;
+}
+
+.feedback .body .image {
+  width: 64%;
+  display: flex;
+  position: relative;
+}
+
+.feedback .text .desc-text {
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 27px 0px 33px 0px;
+}
+
+.feedback .group .rec {
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.feedback .group .desc-group {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.feedback .group .desc-group:last-of-type {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.feedback .text .group {
+  display: flex;
+  align-items: center;
+}
+
+.feedback .text .icons {
+  width: 130px;
+  height: 50px;
+  margin-top: 52px;
+  cursor: pointer;
+}
+
+.feedback .body .image img {
+  object-fit: cover;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.feedback .body .image img:first-of-type {
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  position: absolute;
+  top: 257px;
+  left: 72px;
+}
+
+.feedback .body .image img:nth-of-type(3) {
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  position: absolute;
+  left: 284px;
+  top: 403px;
+}
+
+.feedback .body .image img:nth-of-type(5) {
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  position: absolute;
+  left: 641px;
+  top: 374px;
+}
+
+.feedback .body .image img:nth-of-type(2) {
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
+  position: absolute;
+  left: 216px;
+}
+
+.feedback .body .image img:nth-of-type(4) {
+  width: 235px;
+  height: 235px;
+  border-radius: 235px;
+  position: absolute;
+  left: 345px;
+  top: 107px;
+}
+
+.feedback .body .image img:last-of-type {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  position: absolute;
+  left: 641px;
+  top: 19px;
 }
