@@ -41,9 +41,12 @@ header {
   top: -25px;
 }
 
+header .main_content {
+  padding: 50px 0px 25px 0px;
+}
+
 header .body {
   display: flex;
-  padding: 50px 0px 25px 0px;
   align-items: center;
   justify-content: space-between;
 }
@@ -104,11 +107,13 @@ header .body .btn:hover {
 }
 
 /*================================================================ Phần HERO */
+.hero .main_content {
+  margin-top: 50px;
+  padding-bottom: 79px;
+}
 
 .hero .body {
   display: flex;
-  margin-top: 50px;
-  padding-bottom: 79px;
 }
 
 .hero .title {
@@ -155,6 +160,10 @@ header .body .btn:hover {
   font-size: 1.8rem;
   font-weight: 600;
   margin-top: 52px;
+}
+
+.hero .title .btn:hover {
+  opacity: 0.9;
 }
 
 .hero .content .ava {
@@ -293,10 +302,12 @@ header .body .btn:hover {
 }
 
 /*================================================================= Phần FEATURE */
+.feature .main_content {
+  padding-top: 130px;
+}
 
 .feature .main_content .body {
   width: 87.5%;
-  padding-top: 130px;
 }
 
 .feature .body .desc {
@@ -354,7 +365,7 @@ header .body .btn:hover {
 
 /*====================================================================== Phần COURSES */
 
-.courses .body {
+.courses .main_content {
   padding: 130px 0px;
 }
 
@@ -504,9 +515,12 @@ header .body .btn:hover {
 }
 
 /*============================================================================= Phần FeedBack */
+.feedback .main_content {
+  padding-top: 265px;
+}
+
 .feedback .main_content .body {
   display: flex;
-  padding-top: 265px;
 }
 
 .feedback .text .icon {
@@ -620,4 +634,59 @@ header .body .btn:hover {
   position: absolute;
   left: 641px;
   top: 19px;
+}
+
+/*========================================================================= Phần CTA */
+
+.CTA {
+  background: #def6f5;
+  height: 272px;
+}
+
+.CTA .main_content {
+  margin-top: 167px;
+}
+
+.CTA .main_content .body {
+  display: flex;
+  align-items: center;
+}
+
+.CTA .body .button {
+  margin-left: 410px;
+}
+
+.CTA .text .heading-lv2 {
+  width: 420px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.CTA .text .desc-text {
+  width: 397px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.CTA .body .text {
+  margin-top: 76px;
+  margin-bottom: 88px;
+}
+
+.CTA .button .btn {
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2ac9bf;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.CTA .button .btn:hover {
+  opacity: 0.9;
 }
