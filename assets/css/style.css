@@ -145,7 +145,7 @@ header .body .btn:hover {
   color: #9da6a5;
   font-size: 1.8rem;
   font-weight: 400;
-  line-height: 1.18;
+  line-height: 1.78;
   margin-top: 46px;
 }
 
@@ -330,6 +330,7 @@ header .body .btn:hover {
   color: #767e7e;
   font-size: 1.8rem;
   font-weight: 400;
+  line-height: normal;
 }
 
 .feature .body .list {
@@ -668,7 +669,7 @@ header .body .btn:hover {
   color: #767e7e;
   font-size: 1.8rem;
   font-weight: 400;
-  margin-top: 18px;
+  margin-top: 32px;
 }
 
 .CTA .body .text {
@@ -689,4 +690,66 @@ header .body .btn:hover {
 
 .CTA .button .btn:hover {
   opacity: 0.9;
+}
+
+/* ==========================================================================Phần Footer */
+
+.footer .main_content {
+  padding-top: 130px;
+}
+
+.footer .main_content .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .main_content .desc-copy {
+  text-align: center;
+  margin-top: 80px;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.footer .logo .group-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer .logo .group-logo a:last-child {
+  margin-top: 5px;
+}
+
+.footer .logo .group-logo a:nth-child(2) {
+  margin: 0px 4px 0px 6px;
+}
+
+.footer .group .desc-group {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer .group a {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.footer .group ul {
+  display: grid;
+  gap: 18px;
+}
+
+.footer .group .desc-group {
+  margin-bottom: 26px;
+}
+
+.footer .group:last-of-type .desc-group {
+  margin-bottom: 18px;
+}
+
+.footer .group i {
+  margin-right: 9px;
 }
